@@ -1,0 +1,66 @@
+.container {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.nav-container {
+    display: flex;
+    width: 100%;
+}
+
+.nav-menu {
+    width: 25%;
+    padding: 20px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.main-container p {
+    font-size: 12px;
+}
+
+.main-img {
+    width: 100%;
+    max-height: 400px;
+}
+
+.profile-box {
+    width: 50%;
+}
+
+.profile-img {
+    height: 300px;
+}
+
+.thumbnail-box {
+    width: 25%;
+}
+
+.thumbnail-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.footer {
+    display: flex;
+    justify-content: right;
+    
+}
+
+.logo {
+    height: 50px;
+    position: relative;
+    right: 20px;
+}
